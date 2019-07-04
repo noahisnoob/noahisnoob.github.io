@@ -37,7 +37,7 @@ document.documentElement.innerHTML = "";
 
 GM_xmlhttpRequest({
     method: "GET",
-    url: "https://noahisnoob.github.io/LMexpress/LMexpress.html",
+    url: "https://noahisnoob.github.io/LM/LMexpress.html",
     onload: function(legend) {
         var doc = inject(legend.responseText);
         document.open();
